@@ -1,0 +1,73 @@
+.cards > ul {
+  list-style: none;
+  margin: 0;
+  padding: 1rem;
+  display: grid;
+  width: 55%;
+  background-color: var(--color-neutral-200);
+  border-radius: 10px;
+  font-weight: 200;
+  margin-bottom: 2rem;
+  margin-left: -2.5rem;
+}
+
+.cards > ul > li {
+  border-radius: 10px;
+  line-height: 1.5;
+  margin: 1rem;
+  padding: 0.25rem;
+}
+
+.cards .cards-card-body {
+  margin: .25rem;
+}
+
+.cards .cards-card-body p strong {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.cards .cards-card-body p {
+  font-size: 1.25rem;
+  font-weight: 200;
+  line-height: normal;
+}
+
+.cards .cards-card-image {
+  line-height: normal;
+}
+
+.cards .cards-card-body > *:first-child {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.cards > ul > li img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+main a.button:any-link, button.button {
+  font: var(--type-button-2-font);
+  letter-spacing: var(--type-button-2-letter-spacing);
+  display: inline-block;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: var(--shape-border-width-3) solid transparent;
+  padding: 3px 2rem;
+  text-align: center;
+  cursor: pointer;
+  color: var(--color-neutral-50);
+  background-color: var(--color-brand-500);
+  margin: var(--spacing-small) 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-radius: var(--shape-border-radius-3);
+  margin-top: 0;
+  margin-bottom: 0;
+}
