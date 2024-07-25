@@ -1,4 +1,4 @@
-.cards > ul {
+.delivery > ul {
   list-style: none;
   margin: 0;
   padding: 1rem;
@@ -11,18 +11,18 @@
   margin-left: -2.5rem;
 }
 
-.cards > ul > li {
+.delivery > ul > li {
   border-radius: 10px;
   line-height: 1.5;
   margin: 1rem;
   padding: 0.25rem;
 }
 
-.cards .cards-card-body {
+.delivery .delivery-delivery-body {
   margin: .25rem;
 }
 
-.cards .cards-card-body p strong {
+.delivery .delivery-delivery-body p strong {
   font-size: 2rem;
   font-weight: bold;
   line-height: 0;
@@ -30,22 +30,22 @@
   padding-bottom: 0;
 }
 
-.cards .cards-card-body p {
+.delivery .delivery-delivery-body p {
   font-size: 1.25rem;
   font-weight: 200;
   line-height: normal;
 }
 
-.cards .cards-card-image {
+.delivery .delivery-delivery-image {
   line-height: normal;
 }
 
-.cards .cards-card-body > *:first-child {
+.delivery .delivery-delivery-body > *:first-child {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.cards > ul > li img {
+.delivery > ul > li img {
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
