@@ -4,10 +4,6 @@
   grid-gap: 1rem;
   margin-bottom: 2rem;
   margin-left:-.25rem;
-}
-
-.delivery-confirmation {
-  list-style: none;
   margin: 0;
   padding: 0 1rem;
   background-color: var(--color-neutral-200);
@@ -16,18 +12,7 @@
   margin-bottom: 2rem;
 }
 
-.delivery-confirmation {
-  border-radius: 10px;
-  line-height: 1.5;
-  margin: 1rem;
-  padding: 0.25rem;
-}
-
-.delivery-confirmation {
-  margin: .25rem;
-}
-
-.delivery-confirmation p strong {
+.delivery-recipient {
   font-size: 2rem;
   font-weight: bold;
   line-height: 0;
@@ -35,15 +20,10 @@
   padding-bottom: 0;
 }
 
-.delivery-confirmation p {
+.delivery-address {
   font-size: 1.5rem;
   font-weight: 200;
   line-height: normal;
-}
-
-.delivery-confirmation > *:first-child {
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 main a.button:any-link, button.button {
