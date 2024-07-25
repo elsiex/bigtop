@@ -4,12 +4,10 @@
   grid-gap: 1rem;
   margin-bottom: 2rem;
   margin-left:-.25rem;
-  margin: 0;
   padding: 0 1rem;
   background-color: var(--color-neutral-200);
   border-radius: 10px;
   font-weight: 200;
-  margin-bottom: 2rem;
 }
 
 .delivery-recipient {
