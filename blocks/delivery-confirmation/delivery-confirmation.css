@@ -1,10 +1,13 @@
+.delivery-confirmation.block {
+  margin-bottom: 2rem;
+}
+
 .delivery-confirmation {
   display: grid;
   grid-template-columns: auto;
   grid-gap: 1rem;
-  margin-bottom: 2rem;
   margin-left:-.25rem;
-  padding: 0 1rem;
+  padding: 1rem;
   background-color: var(--color-neutral-200);
   border-radius: 10px;
   font-weight: 200;
@@ -13,22 +16,22 @@
 .delivery-recipient {
   font-size: 2rem;
   font-weight: bold;
-  line-height: 0;
+  line-height: normal;
+  text-align: left;
   margin-bottom: 0;
   padding-bottom: 0;
 }
 
 .delivery-address {
   font-size: 1.5rem;
+  text-align: left;
   font-weight: 200;
   line-height: normal;
 }
 
-main a.button:any-link, button.button {
+a.delivery-confirmation-button:any-link {
   font: var(--type-button-2-font);
   letter-spacing: var(--type-button-2-letter-spacing);
-  display: inline-block;
-  box-sizing: border-box;
   text-decoration: none;
   border: var(--shape-border-width-3) solid transparent;
   padding: 3px 2rem;
@@ -41,6 +44,7 @@ main a.button:any-link, button.button {
   overflow: hidden;
   text-overflow: ellipsis;
   border-radius: var(--shape-border-radius-3);
-  margin-top: 0;
+  max-width: 10rem;
   margin-bottom: 0;
+  margin-top: 0;
 }
