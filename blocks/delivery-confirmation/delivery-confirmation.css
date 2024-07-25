@@ -1,28 +1,33 @@
-.delivery > ul {
+.delivery-confirmation {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 1rem;
+  margin-bottom: 2rem;
+  margin-left:-.25rem;
+}
+
+.delivery-confirmation > ul {
   list-style: none;
   margin: 0;
-  padding: 1rem;
-  display: grid;
-  width: 55%;
+  padding: 0 1rem;
   background-color: var(--color-neutral-200);
   border-radius: 10px;
   font-weight: 200;
   margin-bottom: 2rem;
-  margin-left: -2.5rem;
 }
 
-.delivery > ul > li {
+.delivery-confirmation > ul > li {
   border-radius: 10px;
   line-height: 1.5;
   margin: 1rem;
   padding: 0.25rem;
 }
 
-.delivery .delivery-delivery-body {
+.delivery-confirmation .delivery-confirmation-body {
   margin: .25rem;
 }
 
-.delivery .delivery-delivery-body p strong {
+.delivery-confirmation .delivery-confirmation-body p strong {
   font-size: 2rem;
   font-weight: bold;
   line-height: 0;
@@ -30,25 +35,15 @@
   padding-bottom: 0;
 }
 
-.delivery .delivery-delivery-body p {
-  font-size: 1.25rem;
+.delivery-confirmation .delivery-confirmation-body p {
+  font-size: 1.5rem;
   font-weight: 200;
   line-height: normal;
 }
 
-.delivery .delivery-delivery-image {
-  line-height: normal;
-}
-
-.delivery .delivery-delivery-body > *:first-child {
+.delivery-confirmation .delivery-confirmation-body > *:first-child {
   margin-top: 0;
   margin-bottom: 0;
-}
-
-.delivery > ul > li img {
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
 }
 
 main a.button:any-link, button.button {
