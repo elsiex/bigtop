@@ -380,11 +380,3 @@ main .section.light,
 main .section.highlight {
   background-color: var(--color-neutral-500);
 }
-<<<<<<< Updated upstream
-=======
-
-/* Base Design System Tokens */
-.dropin-design.dropin-design {
-  --background-none: none 0 0% no-repeat padding-box;
-}
->>>>>>> Stashed changes
