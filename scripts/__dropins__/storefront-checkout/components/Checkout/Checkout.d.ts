@@ -3,7 +3,7 @@ import { HTMLAttributes } from 'preact/compat';
 
 export type AsideSections = {
     cartSummary: VNode;
-    // orderSummary: VNode;
+    orderSummary: VNode;
 };
 declare const Aside: FunctionComponent<{
     sections: AsideSections;
